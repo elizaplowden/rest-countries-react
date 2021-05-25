@@ -43,8 +43,8 @@ const Country = () => {
                 </div>
                 <div>
                   <h5>Top Level Domain: <span>{topLevelDomain}</span></h5>
-                  <h5>Currencies: <span>{currencies}</span></h5>
-                  <h5>Languages: <span>{languages}</span></h5>
+                  <h5>Currencies: <span>{currencies[0].name}</span></h5>
+                  <h5>Languages: <span>{languages[0].name}</span></h5>
                 </div>
                 <div>
                   <h3>Border Countries: {borders}</h3>

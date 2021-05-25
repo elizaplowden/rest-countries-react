@@ -35,3 +35,14 @@ Responsive:
 <img src="https://user-images.githubusercontent.com/71760740/119536787-5cc86580-bd81-11eb-9656-98cf7c0fbcfb.png" width="300px" />
 
 
+## Notes
+
+- The App is built using create-react-app and the REST Countries API.
+- I practised using asynchronous fetch requests (instead of axios), with useState and UseEffect hooks to fetch data on each country.
+- I also used Link, useParams, Router and Route from react-router-dom for the first time
+- I used a toggled class 'light-theme' for the light/dark mode features. This is toggled when the user clicks the moon in the top right corner
+- The search bar enables the user to search for countries
+- I still need to implement the filter feature
+- The user can also remove a country by clicking the 'remove country' button. This deletes the numericCode which is used as a key on each of the articles
+- 
+

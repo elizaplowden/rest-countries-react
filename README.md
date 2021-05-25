@@ -7,7 +7,7 @@
   - [Screenshots](#screenshots)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Notes] (#notes)
+  - [Notes](#notes)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -71,19 +71,16 @@ Responsive:
 - I still need to implement the filter feature
 - The user can also remove a country by clicking the 'remove country' button. This deletes the numericCode which is used as a key on each of the articles
 
-## Continued Development
+### Continued Development
 
 - I am excited to integrate this with a Rails application I have been building to plan post-covid holidays. I already have the Rails scaffolding, and will use my new understanding of React to build the components
 - I want to explore the possibilities offered by light/dark mode a little further, perhaps on my portfolio website
 - I am going to read up about react-router-dom and implement it on my next React project
 - I also want to create custom hooks for my next React project
 
-## Useful Resources
+### Useful Resources
 
 - [This YouTube tutorial was incredible helpful] (https://www.youtube.com/watch?v=vwZtmHSa9OY&t=677s)
-
-
-### Author
 
 ## Author
 

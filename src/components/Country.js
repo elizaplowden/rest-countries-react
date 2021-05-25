@@ -25,6 +25,36 @@ const Country = () => {
         {country.map((country) => {
         {/*destructuring info from each country*/}
           const {numericCode, flag, name, nativeName, population, region, subregion, capital, topLevelDomain, currencies, languages, borders} = country;
+          return (
+            <article key="numericCode">
+              <div className="flag">
+                <img src={flag} alt={name} />
+              </div>
+
+              <div className="country-details">
+
+                <div>
+                  <h2>{name}</h2>
+                  <h5>Native Name: <span>{nativeName}</span></h5>
+                  <h5>Population: <span>{population}</span></h5>
+                  <h5>Region: <span>{region}</span></h5>
+                  <h5>Sub Region: <span>{subregion}</span></h5>
+                  <h5>Capital: <span>{capital}</span>{' '}</h5>
+                </div>
+                <div>
+                  <h5>Top Level Domain: <span>{topLevelDomain}</span></h5>
+                  <h5>Currencies: <span>{currencies}</span></h5>
+                  <h5>Languages: <span>{languages}</span></h5>
+                </div>
+                <div>
+                  <h3>Border Countries: {borders}</h3>
+                </div>
+
+              </div>
+
+            </article>
+          )
+
         })}
       </section>
     </div>

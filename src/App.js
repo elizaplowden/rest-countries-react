@@ -4,16 +4,17 @@ import Countries from './components/Countries';
 import Header from './components/Header';
 import Filter from './components/Filter';
 
-const url = 'https://restcountries.eu'
-
 class App extends React.Component {
   render(){
   return (
-    <div>
+    <Router>
       <Header />
-      <Filter />
-      <Countries />
-    </div>
+      <Route exact path="/">
+        <Filter />
+         <Countries />
+      </Route>
+
+    </Router>
     );
   };
 }

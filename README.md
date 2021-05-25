@@ -19,15 +19,15 @@ Your users should be able to:
 
 Dark Mode:
 
-<img src="https://user-images.githubusercontent.com/71760740/119536569-22f75f00-bd81-11eb-8654-b6b6695ce6bd.png" />
+<img src="https://user-images.githubusercontent.com/71760740/119536569-22f75f00-bd81-11eb-8654-b6b6695ce6bd.png" width="500px"/>
 
 Light Mode:
 
-<img src="https://user-images.githubusercontent.com/71760740/119536705-49b59580-bd81-11eb-8042-d141f95b8b21.png" />
+<img src="https://user-images.githubusercontent.com/71760740/119536705-49b59580-bd81-11eb-8042-d141f95b8b21.png" width="500px"/>
 
 Show page:
 
-<img src="https://user-images.githubusercontent.com/71760740/119536823-6356dd00-bd81-11eb-8348-c80f16bc15ac.png" />
+<img src="https://user-images.githubusercontent.com/71760740/119536823-6356dd00-bd81-11eb-8348-c80f16bc15ac.png" width="500px"/>
 
 Responsive:
 

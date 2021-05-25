@@ -17,9 +17,16 @@ Your users should be able to:
 
 ## Results
 
+Dark Mode:
 <img src="https://user-images.githubusercontent.com/71760740/119536569-22f75f00-bd81-11eb-8654-b6b6695ce6bd.png" />
+
+Light Mode:
 <img src="https://user-images.githubusercontent.com/71760740/119536705-49b59580-bd81-11eb-8042-d141f95b8b21.png" />
-<img src="https://user-images.githubusercontent.com/71760740/119536787-5cc86580-bd81-11eb-9656-98cf7c0fbcfb.png" width="300px" />
+
+Show page:
 <img src="https://user-images.githubusercontent.com/71760740/119536823-6356dd00-bd81-11eb-8348-c80f16bc15ac.png" />
+
+Responsive:
+<img src="https://user-images.githubusercontent.com/71760740/119536787-5cc86580-bd81-11eb-9656-98cf7c0fbcfb.png" width="300px" />
 
 

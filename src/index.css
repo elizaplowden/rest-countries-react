@@ -12,7 +12,6 @@ img{
 
 body {
   font-family: 'Nunito Sans', sans-serif;
-  padding: 20px;
   background-color: #202d46;
   color: white;
 }
@@ -25,14 +24,15 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #2b3743;
+  padding: 20px;
 }
 
 /*filter*/
 .filter{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 20px 0;
+  padding: 10px 20px;
 }
 
 .filter .form-control {
@@ -56,9 +56,6 @@ body {
   color: white;
 }
 
-.filter .region-filter {
-  width: 100%;
-}
 
 .filter .region-filter .select{
   background-color: #2b3743;
@@ -75,6 +72,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 40px;
+  padding: 20px;
 }
 
 .grid article{
@@ -111,15 +109,33 @@ body {
   }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
+  .filter{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .filter .form-control{
+    width: auto;
+  }
+
+  .filter .form-control input{
+    width: auto;
+    margin: 0;
+  }
+
+  .filter .region-filter{
+    width: auto;
+  }
+
   .grid{
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 992px) {
-  .body{
-    padding: 50px 100px;
+  .filter .header .grid{
+    padding: 20px 100px;
   }
 
   .grid{

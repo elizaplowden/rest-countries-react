@@ -8,9 +8,11 @@ const Country = () => {
   useEffect(() => {
     const fetchCountryData = async () => {
       const response = await fetch(`https:restcountries.eu/rest/v2/name/${name}`);
-      const country = await response.json;
+      const country = await response.json();
       setCountry(country);
+      console.log(country);
     }
+    fetchCountryData();
   }, [])
 
 
@@ -19,7 +21,12 @@ const Country = () => {
       <Link to="/" className="btn btn-light">
         <i className="fas fa-arrow-left"></i>Back Home
       </Link>
-      <h1>Country Data</h1>
+      <section className="country">
+        {country.map((country) => {
+        {/*destructuring info from each country*/}
+          const {numericCode, flag, name, nativeName, population, region, subregion, capital, topLevelDomain, currencies, languages, borders} = country;
+        })}
+      </section>
     </div>
 
   )

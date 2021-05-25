@@ -85,6 +85,6 @@ Responsive:
 ## Author
 
 - Website - [Eliza Plowden Portfolio](https://www.notion.so/Eliza-Plowden-Portfolio-a02d17c5c5384dfdb9f9441b67119010)
-- LinkedIn - [Eliza Plowden] (https://www.linkedin.com/in/eliza-plowden)
+- LinkedIn - [Eliza Plowden](https://www.linkedin.com/in/eliza-plowden)
 - Twitter - [@elizacodes](https://www.twitter.com/elizacodes)
 

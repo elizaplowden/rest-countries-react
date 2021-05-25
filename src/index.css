@@ -19,6 +19,28 @@ img{
   max-width: 100%;
 }
 
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: var(--dark-bg-color);
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid var(--dark-bg-color);
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.btn:hover{
+  background-color: white;
+  color: var(--dark-bg-color);
+}
+
 body {
   font-family: 'Nunito Sans', sans-serif;
   background-color: var(--dark-bg-color);

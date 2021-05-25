@@ -18,7 +18,7 @@ const Countries = () => {
   }, [])
 
   return (
-    <div>
+    <div className="grid">
       {countries.map((country) => {
         const { numericCode, name, population, language, region, capital, flag } = country;
 

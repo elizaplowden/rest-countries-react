@@ -18,10 +18,24 @@ body {
 }
 
 /*mobile first*/
+
+/*header*/
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/*grid*/
 .grid{
   display: grid;
   grid-template-columns: 1fr;
-  gap: 40px;
+  grid-gap: 40px;
+}
+
+.grid article{
+  box-shadow: 0 10px 10px rgba(9, 17, 22, 0.5);
 }
 
 .grid article img{
@@ -30,9 +44,9 @@ body {
 
 .grid .details{
   background-color: #2b3743;
-  padding: 20px;
+  padding: 40px 20px;
   /*only for margin, not padding*/
-  margin-top: -10px;
+  margin-top: -20px;
   border-radius: 0 0 5px 5px;
 }
 
@@ -61,7 +75,12 @@ body {
 }
 
 @media (min-width: 992px) {
+  .body{
+    padding: 50px 100px;
+  }
+
   .grid{
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 60px;
   }
 }

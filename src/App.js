@@ -1,12 +1,16 @@
 import React from 'react';
 import Countries from './components/Countries';
+import Header from './components/Header';
 
 const url = 'https://restcountries.eu'
 
 class App extends React.Component {
   render(){
   return (
-    <Countries />
+    <div>
+      <Header />
+      <Countries />
+    </div>
     );
   };
 }

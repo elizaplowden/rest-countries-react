@@ -1,6 +1,25 @@
 import React from 'react';
 
 const Filter = () => {
+    window.addEventListener('DOMContentLoaded', () => {
+      const search = document.getElementById('search');
+
+      search.addEventListener('input', (event) => {
+        const { value } = event.target
+
+        const countryName = document.querySelectorAll('.country-name');
+
+        countryName.forEach((name) => {
+          if(name.innerText.toLowerCase().includes(value.toLowerCase)) {
+            // if the name matches any of the names in our input, display them as a block
+            name.parentElement.parentElement.style.display = 'block';
+          } else {
+            name.parentElement.parentElement.style.display = 'none';
+          }
+        })
+      });
+    });
+
   return (
     <section className="filter">
       <form className="form-control">
@@ -18,7 +37,6 @@ const Filter = () => {
         </select>
       </div>
     </section>
-
   );
 
 }

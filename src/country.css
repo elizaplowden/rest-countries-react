@@ -48,6 +48,10 @@
   box-shadow: 0 5px 20px hsla(200, 15%, 8%, 0.5);
 }
 
+.country article .borders ul .light-theme{
+  background-color: var(--light-mode);
+}
+
 @media (min-width: 992px) {
   .country article .country-inner {
     display: grid;

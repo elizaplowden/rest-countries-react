@@ -53,6 +53,11 @@ body {
   transition: background-color 0.4s;
 }
 
+body .light-theme{
+  background-color: #f1f1f1 ;
+  color: var(--light-mode-text);
+}
+
 /*mobile first*/
 
 /*header*/
@@ -68,6 +73,11 @@ body {
 
 .header i{
   cursor: pointer;
+}
+
+.header .light-theme{
+  background-color: var(--light-mode-background);
+  color: var(--light-mode-text);
 }
 
 /*filter*/
@@ -99,6 +109,10 @@ body {
   color: white;
 }
 
+.form input.light-theme{
+   background-color: var(--ligh);
+}
+
 
 .filter .region-filter .select{
   background-color: #2b3743;
@@ -127,11 +141,18 @@ body {
 }
 
 .grid .details{
-  background-color: #2b3743;
+  background-color: var(--article-color);
   padding: 40px 20px;
   /*only for margin, not padding*/
-  margin-top: -20px;
+  margin-top: -10px 0 30px;
   border-radius: 0 0 5px 5px;
+  color: var(--text-color);
+  transition: background-color 0.4s;
+}
+
+.grid .details .light-theme{
+  background-color: var(--light-mode-background);
+  color: var(--light-mode-text);
 }
 
 .grid .details h3{

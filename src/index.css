@@ -41,6 +41,11 @@ img{
   color: var(--dark-bg-color);
 }
 
+.btn-light {
+  background-color: var(--article-color);
+  border: 2px solid var(--article-color);
+}
+
 body {
   font-family: 'Nunito Sans', sans-serif;
   background-color: var(--dark-bg-color);

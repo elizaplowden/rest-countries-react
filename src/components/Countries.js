@@ -20,10 +20,19 @@ const Countries = () => {
   return (
     <div>
       {countries.map((country) => {
-        const { id } = country;
+        const { numericCode, name, population, language, region, capital, flag } = country;
 
         return (
-          <article key={id}>Country Data</article>
+          <article key={numericCode}>
+            <div>
+              <img src={flag} alt={name} />
+              <h3>{name}</h3>
+              <h4>Capital: <span>{capital}</span></h4>
+              <h4>Language: <span>{language}</span></h4>
+              <h4>Region: <span>{region}</span></h4>
+              <h4>Population: <span>{population}</span></h4>
+            </div>
+          </article>
           )
       })};
     </div>

@@ -24,8 +24,51 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #2b3743;
 }
 
+/*filter*/
+.filter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.filter .form-control {
+  width: 100%;
+}
+
+.filter .form-control input{
+  background-color: #2b3743;
+  border: none;
+  outline: none;
+  padding: 12px;
+  color: white;
+  border-radius: 5px;
+  font-family: inherit;
+  letter-spacing: 0.5px;
+  width: 100%;
+  margin: 0 0 30px;
+}
+
+.filter .form-control input::placeholder {
+  color: white;
+}
+
+.filter .region-filter {
+  width: 100%;
+}
+
+.filter .region-filter .select{
+  background-color: #2b3743;
+  color: white;
+  font-family: inherit;
+  padding: 12px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
 
 /*grid*/
 .grid{
